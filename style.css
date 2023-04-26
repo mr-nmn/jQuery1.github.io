@@ -1,0 +1,50 @@
+.header {
+    height: 80px;
+}
+
+.logo1 {
+    width: 200px;
+    height: auto;
+}
+
+.header ul {
+    list-style: none;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+}
+
+.header li {
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+.box {
+    display: none;
+    width: 25vw;
+    background: #000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    z-index: 3;
+    right: 0px;
+}
+
+@media (max-width: 991px) {
+    .box {
+        width: 100vw;
+    }
+}
+
+.new{
+    background: palevioletred;
+}
+
+.slider1{
+    width: 100%;
+}
